@@ -71,7 +71,7 @@ function Board() {
         <div className='flex flex-col items-center justify-center p-4 h-screen'>
                 <h1 className='font-bold text-2xl sm:text-3xl mb-2 text-center'>Tic-Tac Shuffle</h1>
                 <h2 className="text-lg sm:text-xl font-semibold bg-blue-500 text-white px-4 py-2 rounded-xs mb-3 text-center">
-                    Current Turn: {currTurn === 'X' ? 'Player 1' : 'Player-2'}
+                    Current Turn: {currTurn === 'X' ? 'Player 1' : 'Player 2'}
                 </h2>
 
                 <div className='grid grid-cols-3 gap-2 sm:gap-3'>
